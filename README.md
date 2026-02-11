@@ -18,7 +18,11 @@ The project follows a phased approach:
   - Focus: Object-Oriented Basics.
   - Refactors the game logic into a `Game` class.
   - Introduces fields (`playerName`, `secretNumber`, `attempts`) and methods (`start`).
-  - `Day3_Runner.java` contains the clean `main` method that instantiates and starts the game.
+
+- **Day 4 (`HardModeGame.java` & `Day4_Runner.java`)**:
+  - Focus: Inheritance.
+  - `HardModeGame` extends `Game` to create a more difficult version.
+  - Overrides `start()` to implement a life system (5 lives) and increases the number range (1-1000).
 
 - **Workbook (`PHASE_1_WORKBOOK.md`)**:
   - Contains the roadmap and instructions for Phase 1 of the refresher.
@@ -27,11 +31,11 @@ The project follows a phased approach:
 
 1. Compile the Java files:
    ```bash
-   javac Day3_Runner.java Game.java
+   javac Day4_Runner.java HardModeGame.java Game.java
    ```
 2. Run the application:
    ```bash
-   java Day3_Runner
+   java Day4_Runner
    ```
 
 ## Roadmap
@@ -39,5 +43,5 @@ The project follows a phased approach:
 - [x] Day 1: Input & Output
 - [x] Day 2: Control Flow
 - [x] Day 3: Object-Oriented Basics
-- [ ] Day 4: Inheritance
+- [x] Day 4: Inheritance
 - [ ] Day 5: Collections

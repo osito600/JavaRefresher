@@ -3,10 +3,10 @@ import java.util.Random;
 
 public class Game {
     // Fields (Data specific to this object)
-    private String playerName;
-    private int secretNumber;
-    private int attempts;
-    private Scanner scanner;
+    protected String playerName;
+    protected int secretNumber;
+    protected int attempts;
+    protected Scanner scanner;
 
     // Constructor (Sets up the data)
     public Game() {
